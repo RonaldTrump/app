@@ -3,7 +3,7 @@
     <item android:state_pressed="true">
 
         <shape>
-            <solid android:color="#A66817"/>
+            <solid android:color="#2c09ef"/>
             <corners android:radius="@dimen/borde_radios"></corners>
         </shape>
 
@@ -12,17 +12,18 @@
     <item android:state_enabled="false">
 
         <shape>
-            <solid android:color="#986624"/>
+            <solid android:color="#07ef39"/>
         </shape>
     </item>
 
     <item>
         <shape>
-            <gradient android:startColor="#F6C37F"
-                android:endColor="#F1AB50"
+            <gradient android:startColor="#60f45e"
+                android:endColor="#cec77a"
                 android:angle="270"
                 />
-            <corners android:radius="@dimen/radio_boton"/>
+            <corners android:radius="@dimen/borde_radios"/>
         </shape>
     </item>
 </selector>
+

@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
 
+        <shape>
+            <solid android:color="#0dd4ea"/>
+            <corners android:radius="@dimen/borde_radios"></corners>
+        </shape>
+
+    </item>
+
+    <item android:state_enabled="false">
+
+        <shape>
+            <solid android:color="#1835d7"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient android:startColor="#9c1566"
+                android:endColor="#df3f0e"
+                android:angle="270"
+                />
+            <corners android:radius="@dimen/borde_radios"/>
+        </shape>
+    </item>
 </selector>

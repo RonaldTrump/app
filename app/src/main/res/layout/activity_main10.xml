@@ -10,4 +10,38 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.personal.myapplication.Main10Activity">
 
+    <TextView
+        android:text="SEDA EL PASO"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ce0b0b"
+        android:layout_marginLeft="121dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="61dp"
+        android:id="@+id/textView13" />
+    <Button
+        android:text="ATRAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:textColor="#c20dd2"
+        android:id="@+id/button47"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:onClick="vol"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView14"
+        android:background="@drawable/se"
+        android:layout_below="@+id/textView13"
+        android:layout_alignRight="@+id/button47"
+        android:layout_alignEnd="@+id/button47" />
 </RelativeLayout>
